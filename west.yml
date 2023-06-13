@@ -1,0 +1,5 @@
+manifest:
+  version: 0.7
+
+  self:
+    path: app
