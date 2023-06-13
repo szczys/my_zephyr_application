@@ -12,6 +12,13 @@ manifest:
           - cmsis
           - hal_nordic
           - nrfxlib
+    - name: golioth
+      path: modules/lib/golioth
+      revision: ff8de0da412680d8c8e3ca082369fda2f71a99ad
+      url: https://github.com/golioth/golioth-zephyr-sdk.git
+      import:
+        file: west-external.yml
+        path-prefix: deps
 
   self:
     path: app
