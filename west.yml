@@ -1,5 +1,11 @@
 manifest:
   version: 0.7
 
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: zephyr-v3.3.0
+      path: deps/zephyr
+
   self:
     path: app
